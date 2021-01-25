@@ -3,17 +3,15 @@
 
 # **conventional-commit-types**
 
-
-Convention	<Commit type>: <commit subject>
-
-		<commit body>
-
-		<Commit reference> Refer to github issue or JIRA project ticket
-Example 	fix: Fix user can not loggin with google account
-		- Root cause: Missing google API key
-		- Solution: Create a new google API key and add to config file
-		Refs #123, SCM-123
-
+|		|								|
+| ------------- |---------------------------------------------------------------|
+|Convention	|Commit type: commit subject					|
+|		|commit body							|
+|		|<Commit reference> Refer to github issue or JIRA project ticket|
+|Example 	|fix: Fix user can not loggin with google account		|
+|		|- Root cause: Missing google API key				|
+|		|- Solution: Create a new google API key and add to config file	|
+|		|Refs #123, SCM-123						|
 
 Commit types originally from:
 * [Angular Git Commit Message Conventions](https://github.com/angular/angular/blob/master/CONTRIBUTING.md#type)
@@ -50,3 +48,12 @@ Aliases allow to have additionnal commit types (in a tool like [commitizen](http
 | `metadata`         | `fix`   | Metadata          | Update metadata (package.json)  |
 
 
+|		|								|
+| ------------- |---------------------------------------------------------------|
+|Convention	|Commit type: commit subject					|
+|		|commit body							|
+|		|<Commit reference> Refer to github issue or JIRA project ticket|
+|Example 	|fix: Fix user can not loggin with google account		|
+|		|- Root cause: Missing google API key				|
+|		|- Solution: Create a new google API key and add to config file	|
+|		|Refs #123, SCM-123						|
