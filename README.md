@@ -1,25 +1,15 @@
-# AngularChartExercixe
-
-
 # **conventional-commit-types**
-
-|		|								|
+|		            |								                                                |
 | ------------- |---------------------------------------------------------------|
-|Convention	|Commit type: commit subject					|
-|		|commit body							|
-|		|<Commit reference> Refer to github issue or JIRA project ticket|
-|Example 	|fix: Fix user can not loggin with google account		|
-|		|- Root cause: Missing google API key				|
-|		|- Solution: Create a new google API key and add to config file	|
-|		|Refs #123, SCM-123						|
-
-Commit types originally from:
-* [Angular Git Commit Message Conventions](https://github.com/angular/angular/blob/master/CONTRIBUTING.md#type)
-* [commitizen/cz-conventional-changelog](https://github.com/commitizen/cz-conventional-changelog)
-* [conventional-commit-types](https://github.com/commitizen/conventional-commit-types)
-
+|Convention	    |Commit type: commit subject					                          |
+|		            |commit body							                                      |
+|		            |<Commit reference> Refer to github issue or JIRA project ticket|
+|Example 	      |fix: Fix user can not loggin with google account		            |
+|		            |- Root cause: Missing google API key				                    |
+|		            |- Solution: Create a new google API key and add to config file	|
+|		            |Refs #123, SCM-123						                                  |
+  
 ## Commit types
-
 | Commit Type | Title                    | Description                                                                                                 |
 | ----------- | ------------------------ | ----------------------------------------------------------------------------------------------------------- |
 | `feat`      | Features                 | A new feature                                                                                               |
@@ -36,9 +26,6 @@ Commit types originally from:
 
 ## Commit aliases
 
-Aliases allow to have additionnal commit types (in a tool like [commitizen](https://github.com/commitizen/cz-cli) for example) that can be formatted to follow [AngularJS Commit Message Conventions](https://docs.google.com/document/d/1QrDFcIiPjSLDn3EL15IJygNPiHORgU1_OOAqWjiDU5Y/edit).
-
-
 | Commit Type        | Maps to | Title             | Description                     | 
 | ------------------ | ------- | ----------------- | ------------------------------  |
 | `initial`          | `feat`  | Initial           | Initial commit                  | 
@@ -47,13 +34,3 @@ Aliases allow to have additionnal commit types (in a tool like [commitizen](http
 | `devDependencies`  | `chore` | Dev dependencies  | Update development dependencies | 
 | `metadata`         | `fix`   | Metadata          | Update metadata (package.json)  |
 
-
-|		|								|
-| ------------- |---------------------------------------------------------------|
-|Convention	|Commit type: commit subject					|
-|		|commit body							|
-|		|<Commit reference> Refer to github issue or JIRA project ticket|
-|Example 	|fix: Fix user can not loggin with google account		|
-|		|- Root cause: Missing google API key				|
-|		|- Solution: Create a new google API key and add to config file	|
-|		|Refs #123, SCM-123						|
